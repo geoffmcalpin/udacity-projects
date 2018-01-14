@@ -1,0 +1,43 @@
+body {
+	width: 340px;
+	box-shadow: 6px 6px 10px #aaa;
+}
+
+div {
+	padding: 15px 15px;	
+}
+
+img {
+	margin: 10px 0px;
+	border: 1px solid #aaa;
+	border-radius: 13px 43px;
+}
+
+ul {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li {
+	text-align: left;
+}
+
+span {
+	font-weight: bold;
+}
+
+.border {
+	border: 1px solid #aaa;
+	border-radius: 15px 50px;
+}
+
+.content {
+	border: 1px solid #aaa;
+	border-radius: 13px 43px;
+	padding: 12px 9px;
+	text-align: justify;
+	line-height: 1.3;
+
+}
