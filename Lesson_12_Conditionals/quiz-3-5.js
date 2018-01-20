@@ -14,6 +14,6 @@ if (checkBalance === true && isActive === true && balance > 0) {
 }   else if (checkBalance === true && isActive === true && balance === 0) {
     console.log("Your account is empty.");
 }   else if (checkBalance === true && isActive === true && balance < 0) {
-    console.log("Your balance is negative. Please contact the bank.");
+    console.log("Your balance is negative. Please contact bank.");
 }   else { console.log("Thank you. Have a nice day!");
 }
