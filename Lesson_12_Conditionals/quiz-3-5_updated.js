@@ -18,3 +18,4 @@ if (checkBalance) {
             console.log("Your balance is negative. Please contact bank.");
     }
 } else { console.log("Thank you. Have a nice day!");
+  }

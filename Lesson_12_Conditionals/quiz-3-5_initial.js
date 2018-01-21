@@ -3,19 +3,17 @@
  */
 
 // change the values of `balance`, `checkBalance`, and `isActive` to test your code
-var balance = 5.01;
-var checkBalance = false;
+var balance = -5.00;
+var checkBalance = true;
 var isActive = true;
 
-if (checkBalance) {
-    if (!isActive) {
-        console.log("Your account is no longer active.");
-    } else if (balance > 0) {
-            console.log("Your balance is $" + balance + ".");
-    } else if (balance === 0) {
-            console.log("Your account is empty.");
-    } else {
-            console.log("Your balance is negative. Please contact bank.");
-    } 
-} else { console.log("Thank you. Have a nice day!");
-  }
+if (checkBalance === true && isActive === true && balance > 0) {
+    console.log("Your balance is $" + balance + ".");
+}   else if (checkBalance === true && isActive !== true) {
+    console.log("Your account is no longer active.");
+}   else if (checkBalance === true && isActive === true && balance === 0) {
+    console.log("Your account is empty.");
+}   else if (checkBalance === true && isActive === true && balance < 0) {
+    console.log("Your balance is negative. Please contact bank.");
+}   else { console.log("Thank you. Have a nice day!");
+}

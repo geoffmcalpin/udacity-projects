@@ -15,10 +15,10 @@
  */
 
 // change the values of `flavor`, `vessel`, and `toppings` to test your code
-var flavor = 'strawberry';
-var vessel = 'napkin';
-var toppings = 'dirt';
+var flavor = "strawberry";
+var vessel = "bowl";
+var toppings = "peanuts";
 
-if ((flavor == 'chocolate' || 'vanilla') && (vessel == 'cone' || 'bowl') && (toppings == 'sprinkles' || 'peanuts')) {
-    console.log(flavor + " " + vessel + " " + toppings);
+if ((flavor === "chocolate" || flavor === "vanilla") && (vessel === "cone" || vessel === "bowl") && (toppings === "sprinkles" || toppings === "peanuts")) {
+    console.log("I'd like two scoops of " + flavor + " ice cream in a " + vessel + " with " + toppings + ".");
 }
